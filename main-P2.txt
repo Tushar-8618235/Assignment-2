@@ -1,0 +1,91 @@
+/* Set all font to sans-serif*/
+html /* Set background image of page*/
+{
+	 background-image: url("bats.gif");
+  background-repeat: repeat-x repeat-y;
+}
+body{
+	font-family: sans-serif;
+	font-size:100%;
+	width:800px; /*body width*/
+	margin : 10px auto;
+	padding : 0;
+	background-color: white;
+	border-style:solid black;
+	box-shadow : 0.5px 10px 5px 10px; 
+}
+/* Set image on left*/
+header img {float:left;}
+
+header /* Set gradient to header*/
+{
+	background-image: linear-gradient(45deg,transparent ,orange,orange , black);
+	border-bottom: solid black;
+}
+
+/* Set color of shop name and shadow*/
+header h1{
+	text-align: center-left;
+}
+/* aliging space between logo and title*/
+header h1.indent {text-indent: 0em;
+					font-size:2.5em}
+header h3.indent {text-indent: 0.5em;
+			line-height: 0em;
+		}
+	#sidebar{/* Set properties of side bar*/
+	width:160px;
+	float:left;
+	height:500px;
+}
+
+section,aside{ /* Set padding and margin */
+	margin-top:1.5em;
+	margin-bottom:1em;
+}
+aside{
+	margin-right:10px;
+}
+section{
+	margin-left:20px;
+	padding-right:25px;
+	padding-left:25px;
+
+}
+
+
+/* Set font size of heading and making first letter look bigger*/
+main h2.first::first-letter {
+    font-size:200% !important;
+}
+
+
+/* set font size of headings */
+main h3 {font-size: 160%;}
+main h3 {font-size: 130%;
+			font-weight: bold;}
+main h4 { line-height:0.5px;}
+
+/* Bold the links*/
+a{
+	font-weight: bold;
+}
+/* Set color of link and it will change color whenit is focused or selected*/
+a:link {color:orange;}
+a:hover, a:focus {color: green;}
+
+/* Set more space between options/products*/
+ul{ line-height: 1.5;}
+
+/* footer font size and alignment*/
+footer   /* Set gradient,border,height to footer*/
+{
+	text-align:center;
+	height:10%;
+	border-top: solid black;
+	background-image:linear-gradient(45deg,black,orange , transparent);
+}
+footer p {
+	font-size: 80%;
+	text-align: center;
+}
